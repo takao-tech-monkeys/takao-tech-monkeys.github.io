@@ -1423,6 +1423,10 @@ img.MOD_PROMOBOX1_Img {
   margin-bottom: 1em;
 }
 
+.MOD_PROMOBOX1_Text {
+  text-align: center;
+}
+
 .MOD_PROMOBOX1_Blank {
   min-height: 5rem;
 }
