@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
 body {
   font-size: 100%;
 }
@@ -127,10 +128,14 @@ body.modern [data-theme*=_bb1]:after {
   border-bottom: 1px solid #2980B9;
   content: '';
   display: block;
-  width: 60%;
+  width: 100%;
   height: 1px;
   position: absolute;
-  left: 20%;
+  left: 50%;
+  max-width: 300px;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   bottom: -0.4em;
 }
 body.modern [data-theme*=_bo1] {
@@ -1412,7 +1417,7 @@ img.MOD_PROMOBOX1_Img {
 }
 
 [data-layout="_r"] > .MOD_PROMOBOX1_Content {
-  padding: 3rem 2rem 2rem;
+  padding: 0rem 0rem 0rem;
   background: rgba(255, 255, 255, 0.9);
   position: relative;
 }
@@ -1444,7 +1449,7 @@ img.MOD_PROMOBOX1_Img {
 /* promobox1 Echo */
 @media (min-width: 56.25em) {
   [data-layout="_r"] > .MOD_PROMOBOX1_Content {
-    padding: 2rem 4rem;
+    padding: 0rem 0rem;
   }
 }
 /* impactstrip3 */
@@ -1659,3 +1664,29 @@ body .MOD_IMPACTSTRIP4_Txt p {
     font-size: 1.5em;
   }
 }
+.yen_txt{
+  font-family: 'Anton', sans-serif !important;
+  font-size: 2.0em;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+}
+/*letter-spacing:5em;*/
+/*
+.wrapper_prombox1 {
+    position: relative;
+    width: 70%;
+}
+.wrapper_prombox1:before {
+    content:"";
+    display: block;
+    padding-top: 141%; 
+}
+.wrapper_prombox1_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+*/
