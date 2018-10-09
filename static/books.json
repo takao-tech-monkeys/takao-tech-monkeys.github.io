@@ -1,0 +1,49 @@
+[
+    {
+        "name":"らぁらちゃんがGASでTwitterのBotを作る本",
+        "description":[
+            "「女の子(女児)でもわかるプログラミング」",
+            "こんな突飛なコンセプトから生まれた本です．",
+            "一人でも多くの人にとってプログラミングを始めるきっかけになるような，そんな本になれば嬉しいです．"
+        ],
+        "links":[
+            {"button_type":"info","display":"Booth","url":"https://takanakahiko.booth.pm/items/921304"}
+        ],
+        "thumbnail":"images/gas_laala_twitterbot_title.jpg"
+    },
+    {
+        "name":"GAS \"Automation\" Book",
+        "description":[
+            "GoogleAppsScriptで自動化を行う際のTipsです。",
+            "あなたの毎日をより快適に、煩わしい作業からの脱却を手助けしたい、",
+            "そんな思いから誕生しました。"
+        ],
+        "links":[
+            {"button_type":"info","display":"Booth","url":"https://takanakahiko.booth.pm/items/591024"}
+        ],
+        "thumbnail":"images/gas_automation_book_title.png"
+    },
+    {
+        "name":"GASでWebAPIを作る本",
+        "description":[
+            "GoogleAppsScriptでWebAPIを作成するための本です．",
+            "初心者向けの説明が豊富なので，ノンコーダも手を出せる内容です．",
+            "実践編に，「年齢等のパラメータを用いた検索が可能なキャラクター情報提供API」と「アニメレビューを投稿することのできるAPI」の作成とが含まれます．"
+        ],
+        "links":[
+            {"button_type":"info","display":"Booth","url":"https://takanakahiko.booth.pm/items/665402"}
+        ],
+        "thumbnail":"images/gas_web_api_title.jpg"
+    },
+    {
+        "name":"なれる!Git発破技士 -Git発破入門&Tips-",
+        "description":[
+            "Gitリポジトリを破壊することに焦点を当てた本です．",
+            "著者が実際に破壊した経験に基づき，実践的な破壊方法を提示するバッドプラクティス集です．"
+        ],
+        "links":[
+            {"button_type":"info","display":"Booth","url":"https://prprhyt.booth.pm/items/665412"}
+        ],
+        "thumbnail":"images/git_explosion_title.png"
+    }
+]
