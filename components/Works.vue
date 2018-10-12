@@ -18,6 +18,7 @@
                 </div>
             </div>
         </template>
+        <hr class="featurette-divider">
   </div>
 </section>
 </template>
