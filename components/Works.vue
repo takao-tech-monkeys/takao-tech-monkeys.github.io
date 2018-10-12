@@ -6,7 +6,9 @@
             <div class="row featurette" :key="book.name">
                 <div :class="['col-md-7', index%2==0 ? 'order-md-2' : '']">
                     <h2 class="featurette-heading">{{ book.name }}</h2>
-                    <p class="lead">{{ book.description | list2sentense }}</p>
+                    <p class="lead">
+                        <span v-for="text in book.description" :key="text">{{ text }}</span>
+                    </p>
                     <p>
                         <a v-for="link in book.links" :key="link.url" :class="['btn', 'btn-' + link.button_type ]" :href="link.url" role="button">{{ link.display }}</a>
                     </p>
@@ -31,6 +33,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+.btn{
+    margin-right: 1em;
+}
 
 </style>

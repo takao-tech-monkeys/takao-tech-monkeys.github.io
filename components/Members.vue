@@ -5,7 +5,9 @@
     <div v-for="member in members" :key="member.name" class="col-lg-4">
       <img class="rounded-circle" :src="member.thumbnail" alt="Generic placeholder image" width="140" height="140">
       <h3>{{ member.name }}</h3>
-      <p>{{ member.description | list2sentense }}</p>
+      <p>
+        <span v-for="text in member.description" :key="text">{{ text }}</span>
+      </p>
       <p><a class="btn btn-secondary" :href="member.link" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-lg-4">
