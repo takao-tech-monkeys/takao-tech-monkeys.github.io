@@ -25,10 +25,7 @@
 <script>
 
 export default {
-    props: ["books"],
-    filters: {
-        list2sentense(v){ return v.join("<br/>") }
-    }
+    props: ["books"]
 };
 </script>
 
