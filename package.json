@@ -8,8 +8,7 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate",
-    "deploy": "npm run generate && push-dir --dir=dist --branch=master --cleanup"
+    "generate": "nuxt generate"
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
