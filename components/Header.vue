@@ -1,9 +1,8 @@
 <template>
     <header class="MOD_HEADER3" style="margin-bottom: 4rem;" id="top">
-  <div data-layout="_r" class="MOD_IMPACTSTRIP3_Img" style="background-image:url(images/main.png);flex-direction: row;">
+  <div data-layout="_r" class="MOD_IMPACTSTRIP3_Img" style="flex-direction: row;">
     <div data-layout="al16" style="flex: 0 0 100%;">
-      <img class="MOD_HEADER3_Logo" alt="Company name" src="svgs/logo.svg">
-      <h1 class="MOD_HEADER3_Slogan" data-theme="_ts2_bb1" style="margin-bottom:2rem;">takao-giken</h1>
+      <img class="MOD_HEADER3_Logo" alt="Company name" src="images/logo.png">
       <div class="MOD_HEADER3_SocialIcons">
       <!-- Twitter SVG -->
       <a href="https://twitter.com/share?text=高尾技研&amp;url=https://takao-giken.github.io" class="smIcon" onclick="ga('send', 'event', 'share-twitter', 'Click', 'navbar');" target="_blank">
