@@ -1,0 +1,23 @@
+[
+    {
+        "name":"takanakahiko",
+        "description":[
+            "サークル代表．",
+            "情報工学を専攻する学生．",
+            "業務システム，フロントエンド，データ分析，ゲームサーバ等，様々な案件に従事．",
+            "プリパラが好き．"
+        ],
+        "thumbnail":"images/takanakahiko_400x400.jpg",
+        "link":"https://twitter.com/takanakahiko"
+    },
+    {
+        "name":"prprhyt",
+        "description":[
+            "暗号セキュリティを専攻する学生．",
+            "日本Androidの会学生部のコアメンバーとして部を支える．",
+            "最近はHHKBとMagicTrackPad用のドッキングステーションを自作する等，活動は多岐にわたる．"
+        ],
+        "thumbnail":"images/prprhyt_400x400.jpg",
+        "link":"https://twitter.com/prprhyt"
+    }
+]
